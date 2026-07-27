@@ -25,7 +25,7 @@ pip install -r requirements.txt
 All experiments were conducted in Google Colaboratory using Python 3.12.12 and PyTorch 2.5.0 with CUDA 12.6.
 
 ## Codebase Overview
-- `model.py`: Implementation of the proposed PGPRDT (Physics-Guided Patch-Routing Dual Transformer) architecture. The implementation is based on PyTorch and includes the time-domain patch embedding, the frequency-domain branch with a learnable spectral filterbank, the two branch Transformer encoders, the patch-level physics gate for routing, and the classifier head.
+- [`model.py`](model.py): Implementation of the proposed PGPRDT (Physics-Guided Patch-Routing Dual Transformer) architecture. The implementation is based on PyTorch and includes the time-domain patch embedding, the frequency-domain branch with a learnable spectral filterbank, the two branch Transformer encoders, the patch-level physics gate for routing, and the classifier head.
 
 ## Citing this Repository
 If you use this code in your research, please cite:
