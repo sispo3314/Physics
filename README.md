@@ -13,8 +13,16 @@ This repository does not include datasets. Please download them from the officia
 - **UniMiB-SHAR** dataset is available at http://www.sal.disco.unimib.it/technologies/unimib-shar/
 
 ## Requirements
-'''
+```
 torch==2.5.0
 numpy
 scikit-learn
-'''
+```
+To install all required packages:
+```
+pip install -r requirements.txt
+```
+All experiments were conducted in Google Colaboratory using Python 3.12.12 and PyTorch 2.5.0 with CUDA 12.6.
+
+
+
