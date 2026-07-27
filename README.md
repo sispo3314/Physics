@@ -24,5 +24,27 @@ pip install -r requirements.txt
 ```
 All experiments were conducted in Google Colaboratory using Python 3.12.12 and PyTorch 2.5.0 with CUDA 12.6.
 
+## Codebase Overview
+- `model.py`: Implementation of the proposed PGPRDT (Physics-Guided Patch-Routing Dual Transformer) architecture. The implementation is based on PyTorch and includes the time-domain patch embedding, the frequency-domain branch with a learnable spectral filterbank, the two branch Transformer encoders, the patch-level physics gate for routing, and the classifier head.
 
+## Citing this Repository
+If you use this code in your research, please cite:
+```
+@article{PGPRDT,
+  title   = {Physics-Guided Adaptive Patch Routing for Temporal--Spectral Fusion in Wearable Human Activity Recognition},
+  author  = {Jimin Kim and Myung-Kyu Yi},
+  journal = {},
+  volume  = {},
+  number  = {},
+  pages   = {},
+  year    = {},
+  publisher = {}
+}
+```
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For questions or issues, please contact:
+  - Jimin Kim: sispo3314@gmail.com
