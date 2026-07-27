@@ -11,3 +11,10 @@ This repository does not include datasets. Please download them from the officia
 - **WISDM** dataset is available at https://www.cis.fordham.edu/wisdm/dataset.php
 - **PAMAP2** dataset is available at https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
 - **UniMiB-SHAR** dataset is available at http://www.sal.disco.unimib.it/technologies/unimib-shar/
+
+## Requirements
+'''
+torch==2.5.0
+numpy
+scikit-learn
+'''
